@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingsukh Guest House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="main-header">
+            <div class="container">
+                <div class="logo">
+                    <h1>Kingsukh Guest House</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#rooms">Rooms</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="book-now-btn">
+                    <a href="#contact" class="btn">Book Now</a>
+                </div>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Make Yourself At Home In Our <span style="color: #e82574;">Guest House.</span></h1>
+            <!-- <p>Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam.</p> -->
+            <a href="javascript:void(0);" onclick="return openWhatsApp();" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <!-- In the About Section -->
+                <div class="about-image">
+                    <img src="assets/flower.jpg" alt="Kingsukh Guest House Exterior">
+                </div>
+
+                <!-- In the Rooms Section -->
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="assets/small.jpg" alt="Cozy Haven Room">
+                    </div>
+                    <!-- In the room cards -->
+                    <div class="room-details">
+                        <h3>Cozy Haven Room</h3>
+                        <p>Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.
+                        </p>
+                        <p class="price">Starting from Rs. 1200/night</p>
+                        <a href="javascript:void(0);" onclick="return openWhatsApp();" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="assets/room1.jpg" alt="Spacious Serenity Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Spacious Serenity Suite</h3>
+                        <p>Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets
+                            roomy elegance.</p>
+                        <p class="price">Starting from Rs. 1500/night</p>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="assets/large.jpg" alt="Presidential Suite">
+                    </div>
+                    <div class="room-details">
+                        <h3>Presidential Suite</h3>
+                        <p>Experience the pinnacle of luxury in our presidential suite, where opulence meets
+                            unparalleled service.</p>
+                        <p class="price">Starting from Rs. 1600/night</p>
+                        <a href="#contact" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <i class="fas fa-bed"></i>
+                    <div class="counter" data-target="500">0</div>
+                    <h3>Bookings</h3>
+                </div>
+                <div class="counter-item">
+                    <i class="fas fa-smile"></i>
+                    <div class="counter" data-target="300">0</div>
+                    <h3>Happy Customers</h3>
+                </div>
+                <div class="counter-item">
+                    <i class="fas fa-award"></i>
+                    <div class="counter" data-target="10">0</div>
+                    <h3>Years of Service</h3>
+                </div>
+                <div class="counter-item">
+                    <i class="fas fa-utensils"></i>
+                    <div class="counter" data-target="1000">0</div>
+                    <h3>Meals Served</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-wifi"></i>
+                    <h3>Free Wi-Fi</h3>
+                    <p>Stay connected with our complimentary high-speed internet access throughout the property.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Restaurant</h3>
+                    <p>Enjoy delicious meals prepared with fresh, local ingredients at our in-house restaurant.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-car"></i>
+                    <h3>Parking</h3>
+                    <p>Convenient and secure parking available for all our guests.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Room Service</h3>
+                    <p>Comfortable rooms and good room service available 24 hours.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Security</h3>
+                    <p>High security available 24 hours for your peace of mind.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Tour Assistance</h3>
+                    <p>Let us help you explore the beautiful surroundings with our tour assistance service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-description">Capturing the essence of elegance and comfort, our Guest House's photo
+                gallery offers a visual journey through the allure of our accommodations and amenities.</p>
+            <!-- In the Gallery Section -->
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/1.jpg" alt="Gallery Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/baranti.webp" alt="Gallery Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/mithonDam.webp" alt="Gallery Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/out.jpg" alt="Gallery Image 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/recep.jpg" alt="Gallery Image 5">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/service.jpg" alt="Gallery Image 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9007062180</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@kingsukhguesthouse.com</p>
+                        </div>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5015981390466!2d86.85721547388647!3d23.58633729505786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2z4KSV4KS_4KSo4KWN4KSX4KWN4KS44KWB4KSWIOCkl-Clh-CkuOCljeCknyDgpLngpL7gpIngpLg!5e0!3m2!1shi!2sin!4v1750141549945!5m2!1shi!2sin"
+                            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Mobile Number" required>
+                        </div>
+
+                        <div class="form-group date-inputs">
+                            <div>
+                                <label for="checkIn">Check In</label>
+                                <input type="date" id="checkIn" name="checkIn" required>
+                            </div>
+                            <div>
+                                <label for="checkOut">Check Out</label>
+                                <input type="date" id="checkOut" name="checkOut" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Write your message here..."
+                                rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block">Book Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Kingsukh Guest House</h2>
+                    <p>Discover a world of comfort, luxury, and adventure as you explore our curated selection of
+                        hotels, making every moment of your getaway truly extraordinary.</p>
+                    <a href="javascript:void(0);" onclick="return openWhatsApp();" class="btn"
+                        style="margin-top: 1rem;">Book Now</a>
+                </div>
+                <div class="footer-logo">
+                    <h2 style="color: white; font-weight: 500;">QUICK LINKS </h2>
+                    <p>Browse Destinations</p>
+                    <p> Special Offers & Packages</p>
+                    <p>Room Types & Amenities</p>
+                    <p>Customer Reviews & Ratings</p>
+                    <p>Travel Tips & Guides</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>OUR SERVICES</h3>
+                    <p>Concierge Assistance</p>
+                    <p>Flexible Booking Options</p>
+                    <p>Airport Transfers</p>
+                    <p>Wellness & Recreation</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Beside Barshal Water Tank, Manpur, Barhanti, West Bengal
+                        723156</p>
+                    <p><i class="fas fa-phone"></i> +91 9007062180</p>
+                    <p><i class="fas fa-envelope"></i> kkghosh0099@gmail.com</p>
+                    <div class="social-icons" style="margin-top: 1rem;">
+                        <a class="face" href="#home"><i class="fab fa-facebook-f"></i></a>
+                        <a class="twit" href="#home"><i class="fab fa-twitter"></i></a>
+                        <a class="insta" href="https://www.instagram.com/kingsukhguesthouse?igsh=YWo4Z2dmM3Jodm40"><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="youtube" href="#home"><i class="fa-brands fa-youtube"></i></a>
+
+                    </div>
+                </div>
+                <!-- <div class="footer-book">
+                    <h3>Book Your Stay</h3>
+
+                </div> -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kingsukh Guest House. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
